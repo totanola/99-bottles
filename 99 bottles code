@@ -1,0 +1,19 @@
+print("Here are the lyrics to this awful song\n")
+
+for n in range(0,99):
+    number1=99-n
+    number1=str(number1)
+    number2=98-n
+    number2=str(number2)
+    if number2=='1':
+        print(number1 + " bottles of beer on the wall, " + number1 + " bottles of beer.\n"
+          "Take one down and pass it around, " + number2 + " bottle of beer on the wall.\n\n")
+    elif number1=='1':
+        print(number1 + " bottle of beer on the wall, " + number1 + " bottle of beer.\n"
+              "Take one down and pass it around, no more bottles of beer on the wall.\n\n"
+              "No more bottles of beer on the wall, no more bottles of beer.\n"
+              "Go to the store and buy some more, 99 bottles of beer on the wall.")
+    else:
+        print(number1 + " bottles of beer on the wall, " + number1 + " bottles of beer.\n"
+              "Take one down and pass it around, " + number2 + " bottles of beer on the wall.\n\n")
+
